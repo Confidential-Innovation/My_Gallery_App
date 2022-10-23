@@ -9,11 +9,6 @@ import UIKit
 import PhotosUI
 
 
-
-
-
-
-
 class ViewController: UIViewController {
     
     @IBOutlet weak var collectionView: UICollectionView!
@@ -140,4 +135,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout{
         return 0
     }
 }
+
+// MARK: Code Finished
 
